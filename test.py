@@ -10,7 +10,7 @@ def test():
     for (k,v) in m:
         print k,v
     hash_model,doc_dict = sy.simhash_bucket()
-    str = u"我爱习大大"
+    str = u"我爱打球"
     sh1 = sy.text_genhash(str)
     print sy.find_similarity(sh1,hash_model)
     #save_model(hash_model, model_path)

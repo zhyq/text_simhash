@@ -23,4 +23,4 @@ if __name__ == '__main__':
     num = 10
     while(num):
         test()
-        num--
+        num = num - 1
